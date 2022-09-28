@@ -54,5 +54,5 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ojciec22/infra_actions:latest
+          tags: ${{ secrets.DOCKER_USER }}/infra_actions:latest
   
